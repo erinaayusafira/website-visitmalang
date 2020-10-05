@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Visit Malang</title>
+    <link rel="shortcut icon" href="assets/images/logo2.png">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/ethnic.css">
+    <style>
+        .parallak{
+            background-image: url('assets/images/ihotel/b-17.jpg');
+            height: 100vh; 
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark top-navbar">
+            <a class="navbar-brand second" id="brand" href="#">
+                <img src="assets/images/logo.png" style="height:30px;" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="outline: none; border: none;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item nav-pd aniscroll">
+                            <a class="nav-link second" href=".gridcard" id="nav-color">List</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+        <div class="parallak">
+            <div class="lp-desc">
+                <h1>P E N G I N A P A N</h1>
+                <h5>M A L A N G</h5>
+            </div>
+        </div>
+
+        <div class="gridcard">
+            <div class="cardd">
+                <div class="card-img">
+                    <img class="" src="assets/images/ihotel/A-1.png" alt="Card image cap" style="width: 100%">
+                </div>
+                <div class="card-bodyy">
+                    <h5 class="card-title"><b>The Singhasari Resort</b></h5>
+                    <p class="card-text">The Singhasari Resort, perpaduan sempurna antara budaya, tradisi, gaya hidup dan keindahan
+                            Indonesia. The ... </p>
+                    <a href="singhasari.html" target="_blank"><button class="btn-primaryy">Read More ... </button></a>
+                </div>
+            </div>
+
+            <div class="cardd">
+                <div class="card-img">
+                    <img class="" src="assets/images/ihotel/c-7.jpg" alt="Card image cap" style="width: 100%">
+                </div>
+                <div class="card-bodyy">
+                    <h5 class="card-title"><b>Golden Tulip Holland Resort</b></h5>
+                    <p class="card-text">Golden Tulip Holland Resort bintang 4 ini berlokasi ideal di jantung tempat rekreasi di Batu,
+                           i ... </p>
+                    <a href="goldentulip.html" target="_blank"><button class="btn-primaryy">Read More ... </button></a>
+                </div>
+            </div>
+
+            <div class="cardd">
+                <div class="card-img">
+                    <img class="" src="assets/images/ihotel/d-7.jpg" alt="Card image cap" style="width: 100%">
+                </div>
+                <div class="card-bodyy">
+                    <h5 class="card-title"><b>Ijen Suites Resort & Convention</b></h5>
+                    <p class="card-text">Ijen Suites Resort & Convention menawarkan akomodasi di Malang. Resort ini 
+                        memiliki ... </p>
+                    <a href="ijenresort.html" target="_blank"><button class="btn-primaryy">Read More ... </button></a>
+                </div>
+            </div>
+
+            <div class="cardd">
+                <div class="card-img">
+                    <img class="" src="assets/images/ihotel/b-4.jpg" alt="Card image cap" style="width: 100%; object-position: top">
+                </div>
+                <div class="card-bodyy">
+                    <h5 class="card-title"><b>Swiss Belin Hotel</b></h5>
+                    <p class="card-text">Terletak di lokasi strategis pusat kota bersejarah Malang, Jawa Timur.
+                            Hotel ini mampu menawarkan akses mudah  ...</p>
+                    <a href="swissbelin.html" target="_blank"><button class="btn-primaryy">Read More ... </button></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="kakiWeb">
+            <!-- <img src="./assets/images/logo/kebatu256-negative.png" alt="kebatuLogo" class="logoKaki"> -->
+            <h2 class="GPTim"><b>Visit Malang</b></h2>
+            <ul>
+                    <div class="scroll">
+                            <li><a href=".gridcard">List</a></li>
+                    </div>
+            </ul>
+            <div class="tetapTerhubung">
+                <h2><b>Tetap Terhubung</b></h2>
+                <div class="left2"></div>
+                <div class="right2">
+                    <h3>E-Mail</h3>
+                    <p>visitmalang@gmail.com</p>
+                </div>
+
+                <div class="left3"></div>
+                <div class="right3">
+                    <h3>Alamat</h3>
+                    <p>Jl. Danau Ranau, Sawojajar, Kedungkandang, Kota Malang,
+                        Jawa Timur 65139
+                    </p>
+                </div>
+            </div>
+            <div class="kakiweb2">halo</div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2019 Visit Malang</p>
+        </div>
+    </div>
+
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/toucheffects.js"></script>
+</body>
+
+</html>
+
+<script>
+    $(document).ready(function () {
+        $('.aniscroll a, .scroll a, .link-tentang').click(function (e) {
+            e.preventDefault();
+            target = $(this).attr("href");
+            $('html, body').animate({
+                scrollTop: $(target).offset().top - 47
+            }, 700);
+            $('.navbar-collapse').removeClass('show')
+        });
+
+        $(document).on('scroll', function () {
+            if (window.pageYOffset > 50) {
+                $('.top-navbar').addClass('navbar-warna');
+                $('.navbar').removeClass('navbar-transparent');
+            }
+            else {
+                $('.top-navbar').removeClass('navbar-warna');
+                $('.navbar').addClass('navbar-transparent');
+            }
+        });
+
+        $(document).on('click', '.navbar-toggler-icon', function () {
+            if (!$('.navbar-collapse').hasClass('show')) {
+                $('.navbar').removeClass('navbar-transparent');
+                $('.navbar').addClass('navbar-warna');
+            }
+            else {
+                $('.navbar').removeClass('navbar-warna');
+                $('.navbar').addClass('navbar-transparent');
+            }
+        });
+
+        $('.navbar-collapse ul li a').click(function () {
+            $('.navbar-toggle:visible').click();
+        });
+
+        $(document).on('click', '.navbar-collapse.in', function (e) {
+            if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) {
+                $(this).collapse('hide');
+            }
+        });
+    });
+</script>
